@@ -1,5 +1,8 @@
 Cucumber::Application.routes.draw do
   resources :assignments
+
+
+  resources :assignments
   root :to => 'assignments#index'
 
 
